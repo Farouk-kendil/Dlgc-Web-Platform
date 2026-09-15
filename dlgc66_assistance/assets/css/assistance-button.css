@@ -1,0 +1,77 @@
+/* ============================================================
+   Bouton "🎧 Demande d’assistance" de la page d'accueil DLGC
+   ============================================================ */
+
+.assistance-link {
+  display: block;
+  text-decoration: none;
+}
+
+.assistance-button,
+a.assistance-button,
+button.assistance-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100px 1px;
+  margin-top: 4%;
+  color: #174d2a;
+  font-size: larger;
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(135deg, rgba(214, 255, 220, 0.97), rgba(162, 235, 180, 0.97));
+  border: 2px solid rgba(70, 160, 92, 0.75);
+  box-shadow: 0 7px 18px rgba(18, 96, 45, 0.28);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  cursor: pointer;
+}
+
+.assistance-button:hover,
+.assistance-button:focus-visible,
+a.assistance-button:hover,
+a.assistance-button:focus-visible,
+button.assistance-button:hover,
+button.assistance-button:focus-visible {
+  background: linear-gradient(135deg, rgba(232, 255, 235, 1), rgba(177, 244, 193, 1));
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 0 10px 24px rgba(18, 96, 45, 0.38);
+  outline: none;
+  color: #0d381c;
+}
+
+.assistance-button:active,
+a.assistance-button:active,
+button.assistance-button:active {
+  transform: translateY(0) scale(0.995);
+}
+
+.assistance-emoji {
+  font-size: 1.18em;
+  vertical-align: -1px;
+}
+
+/* Styles pour les boutons principaux du site */
+a.main-btn {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.836);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100px 1px;
+  margin-top: 4%;
+  color: indigo;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.main-btn:hover {
+  background-color: rgba(209, 223, 253, 0.747);
+}
+
